@@ -10,6 +10,33 @@ Powered by Redis for ultra-fast data storage and retrieval using optimized data 
 
 ---
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg) ![Redis](https://img.shields.io/badge/Redis-%E2%9D%A4-red) ![Flask](https://img.shields.io/badge/Flask-API-lightgrey) ![Status](https://img.shields.io/badge/status-In_Progress-yellow)
+
+---
+
+## ⚡ Quick Start
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/redis-social-backend.git
+cd redis-social-backend
+
+# Set up virtual environment
+python -m venv venv
+venv\Scripts\activate  # or source venv/bin/activate for macOS/Linux
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Start Redis server in a separate terminal
+redis-server
+
+# Run the app
+python app.py
+```
+
+---
+
 ## 🚀 Features
 
 - User management (create, get)
